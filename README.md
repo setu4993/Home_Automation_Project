@@ -5,6 +5,9 @@ A home automation system for automating lights in the passageways and in the roo
 This repository contains the code for every module of the described project. The project was completed as a part of my curriculum and was accompanied by hardware modules.
 
 Light module:
+
 1. Microcontroller: Espressif ESP 8266 based Wemos D1 Mini
+
 2. Sensors: Ultrasonic sensor, PIR sensor
+
 3. Actuators: LEDs, relays
