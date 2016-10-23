@@ -1,4 +1,4 @@
-# Home_Automation_Project
+# Home Automation Project
 
 A home automation system for automating lights in the passageways and in the rooms, a key-less door lock system and leakage detection for LPG cooking gas. Using an Android app to monitor and control all of the above. Using a local RasPi server for local data logging and connecting all the appliances to the internet.
 
@@ -23,6 +23,7 @@ This repository contains the code for every module of the described project. The
 3. Output: Buzzer, LED, Motor control
 
 **Local server:** A local server is maintained to communicate among all the modules and to forward the data to the web server periodically.
+Microcontroller: Raspberry Pi Zero running Raspbian.
 
 **Android app:** An Android app that displays the current status and the past operations that have taken place for all of the above devices. Also allows creation of new users. Can be used to monitor the status of the home from another location.
 
