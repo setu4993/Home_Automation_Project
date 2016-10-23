@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="50dp">
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="15dp"
+        android:id="@+id/tx_sr"
+        android:layout_alignParentLeft="true"
+        android:text="Sr"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearance"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:id="@+id/tx_date"
+        android:layout_toRightOf="@id/tx_sr"
+        android:text="Date"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearance"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="80dp"
+        android:id="@+id/tx_time"
+        android:layout_toRightOf="@id/tx_date"
+        android:text="Time"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearance"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/tx_value"
+        android:layout_toRightOf="@id/tx_time"
+        android:text="LPG in Air"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearance"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:id="@+id/tx_wrlvl"
+        android:layout_toRightOf="@id/tx_value"
+        android:text="Code"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearance"
+        />
+</RelativeLayout>
